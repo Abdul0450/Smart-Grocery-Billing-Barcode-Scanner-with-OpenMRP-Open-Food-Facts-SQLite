@@ -1,0 +1,1 @@
+# Smart-Grocery-Billing-Barcode-Scanner-with-OpenMRP-Open-Food-Facts-SQLite
