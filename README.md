@@ -16,6 +16,7 @@ The application provides an editable product form where users can enter or updat
 - Price Validation: Validate numeric prices and warn when the selling price exceeds the MRP.
 - Additional Product Information: Display available categories, ingredients, and image URLs.
 - Scan Debouncing: Reduce repeated scans while a barcode remains visible.
+  
 🛠️ Technologies Used
 - Python
 - OpenCV
