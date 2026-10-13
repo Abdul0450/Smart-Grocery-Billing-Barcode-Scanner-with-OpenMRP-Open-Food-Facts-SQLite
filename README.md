@@ -84,6 +84,7 @@ Obtain your API key from the OpenMRP provider if API access is available to your
 Never commit your real API key to GitHub.
 5. Add the beep sound
 Place beep-02.wav in the same folder as main.py. If the file is missing or cannot be loaded, the application continues without sound.
+
 ▶️ Run the Application
 Start the barcode scanner using:
 python main.py
@@ -98,6 +99,7 @@ Then:
 6. Click Save to Database.
 7. Scan another product after the form closes.
 8. Press Q in the scanner window to exit.
+   
 🗄️ Database Structure
 The application creates a products table in grocery_store.db.
 Column	Description
@@ -108,6 +110,7 @@ unit	Pack size or quantity
 price	Store selling price
 mrp	Maximum retail price
 The barcode is used as the primary key, allowing the application to update a product's details when the same barcode is saved again.
+
 🌐 API Integration
 OpenMRP India
 - Used as the first online product lookup source.
@@ -119,11 +122,13 @@ Open Food Facts
 - Does not guarantee that every Indian grocery product will be available.
 - Generally does not provide the local store's selling price.
 API responses can vary, and product availability depends on the provider's database and API access.
+
 💰 Product Pricing
 This application distinguishes between:
 - MRP: Maximum retail price retrieved from an API when available or entered manually.
 - Store Selling Price: The price charged by the local grocery store.
 The selling price should be reviewed and entered by the store operator when it is not available. The application does not automatically determine current market prices.
+
 🔐 Security and Limitations
 - Store API keys in environment variables.
 - Do not upload API keys, passwords, or private credentials to GitHub.
@@ -131,6 +136,7 @@ The selling price should be reviewed and entered by the store operator when it i
 - Barcode scanning depends on camera quality, lighting, barcode condition, and focus.
 - The current version stores product details but does not yet implement a complete shopping cart, quantity management, GST calculation, invoice generation, or checkout workflow.
 - This is a desktop application designed for local use; it does not currently provide a multi-user or cloud-based database.
+  
 🚀 Future Improvements
 - Add a shopping cart with quantity and subtotal calculations.
 - Generate printable grocery bills and PDF invoices.
@@ -141,6 +147,7 @@ The selling price should be reviewed and entered by the store operator when it i
 - Add low-stock alerts and stock quantity management.
 - Develop a more advanced billing dashboard.
 - Support multiple stores and shared databases.
+  
 👨‍💻 Author
 Abdul Samee Qureshi
 Python Developer | Computer Vision Enthusiast | AI & Data Projects
