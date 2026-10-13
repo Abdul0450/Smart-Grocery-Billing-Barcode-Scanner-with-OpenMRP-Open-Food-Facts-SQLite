@@ -1,0 +1,12 @@
+streamlit
+requests
+pandas
+pillow
+numpy
+opencv-python
+av
+streamlit-webrtc
+streamlit-autorefresh
+zxing-cpp
+pyzbar
+pydub
